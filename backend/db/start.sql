@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS `library`;
+USE `library`;
+
+CREATE TABLE `USERS` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(50) NOT NULL,
+    `email` VARCHAR(50) NOT NULL,
+    PRIMARY KEY (`id`)
+) DEFAULT CHARSET=utf8mb4
